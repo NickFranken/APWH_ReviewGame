@@ -1,5 +1,4 @@
 
-
 import java.awt.Toolkit;
 import java.awt.event.WindowEvent;
 
@@ -13,19 +12,17 @@ import java.awt.event.WindowEvent;
  *
  * @author Nicholas
  */
-public class P3Q1 extends javax.swing.JFrame {
-    private Data num;
+public class P3Q6 extends javax.swing.JFrame {
+
     /**
      * Creates new form P3Q1
      */
-    public P3Q1() 
-    {
+    public P3Q6() {
         initComponents();
         setSize(1280, 1024);
         setResizable(true);
-        jLabel12.setVisible(false);
+        jLabel13.setVisible(false);
     }
-
     public void close()
     {
         WindowEvent winClosingEvent = new WindowEvent(this,WindowEvent.WINDOW_CLOSING);
@@ -41,7 +38,6 @@ public class P3Q1 extends javax.swing.JFrame {
     private void initComponents() {
 
         jLabel1 = new javax.swing.JLabel();
-        jLabel2 = new javax.swing.JLabel();
         jButton1 = new javax.swing.JButton();
         jLabel3 = new javax.swing.JLabel();
         jLabel4 = new javax.swing.JLabel();
@@ -56,14 +52,12 @@ public class P3Q1 extends javax.swing.JFrame {
         jLabel10 = new javax.swing.JLabel();
         jLabel11 = new javax.swing.JLabel();
         jLabel12 = new javax.swing.JLabel();
+        jLabel13 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
         jLabel1.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
-        jLabel1.setText("1.Which of the following statements most accurately reflects a major difference between Arab ");
-
-        jLabel2.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
-        jLabel2.setText("expansion in the seventh century and Viking expansion in the ninth century? ");
+        jLabel1.setText("6.In the period between 600 and 1450, which of the following were two occupations");
 
         jButton1.setText("A.");
         jButton1.setActionCommand("A. Arab expansion relied most heavily on diplomacy,\nwhile Viking expansion relied most heavily on military might.");
@@ -73,9 +67,9 @@ public class P3Q1 extends javax.swing.JFrame {
             }
         });
 
-        jLabel3.setText(" Arab expansion relied most heavily on diplomacy,");
+        jLabel3.setText("Midwife and healer");
 
-        jLabel4.setText(" while Viking expansion relied most heavily on military might.");
+        jLabel4.setText("                                                                                               ");
 
         jButton2.setText("B.");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
@@ -84,11 +78,9 @@ public class P3Q1 extends javax.swing.JFrame {
             }
         });
 
-        jLabel5.setText("Viking expansion tended to occur in areas with few large");
+        jLabel5.setText("Military leader and farmer");
 
-        jLabel6.setText("urban centers, while the Arab expansion occurred in areas");
-
-        jLabel7.setText("with comparatively large urban centers.");
+        jLabel6.setText("                                                                                              ");
 
         jButton3.setText("C.");
         jButton3.setActionCommand("A. Arab expansion relied most heavily on diplomacy,\nwhile Viking expansion relied most heavily on military might.");
@@ -98,9 +90,9 @@ public class P3Q1 extends javax.swing.JFrame {
             }
         });
 
-        jLabel8.setText(" while Viking expansion was financed by profit from the silk trade. ");
+        jLabel8.setText("                                                                                                         ");
 
-        jLabel9.setText("Arab expansion was financed by religious tithing,");
+        jLabel9.setText("Scribe and tax collector");
 
         jButton4.setText("D.");
         jButton4.setActionCommand("A. Arab expansion relied most heavily on diplomacy,\nwhile Viking expansion relied most heavily on military might.");
@@ -110,13 +102,16 @@ public class P3Q1 extends javax.swing.JFrame {
             }
         });
 
-        jLabel10.setText("Viking expansion was limited to Ireland, Scotland, Iceland, and Greenland,");
+        jLabel10.setText("Metalworker and textile manufacturer");
 
-        jLabel11.setText(" while Arab expansion was limited to the Arabian Peninsula and Persia. ");
+        jLabel11.setText("                                                                                                                  ");
 
-        jLabel12.setFont(new java.awt.Font("Tahoma", 3, 12)); // NOI18N
-        jLabel12.setForeground(new java.awt.Color(255, 0, 0));
-        jLabel12.setText("Oops, Try Again");
+        jLabel12.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        jLabel12.setText(" pursued by large numbers of African and European women? ");
+
+        jLabel13.setFont(new java.awt.Font("Tahoma", 3, 12)); // NOI18N
+        jLabel13.setForeground(new java.awt.Color(255, 0, 0));
+        jLabel13.setText("Oops, Try Again");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -127,9 +122,9 @@ public class P3Q1 extends javax.swing.JFrame {
                     .addGroup(layout.createSequentialGroup()
                         .addGap(103, 103, 103)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 800, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(jLabel1)
-                            .addComponent(jLabel12)))
+                            .addComponent(jLabel12)
+                            .addComponent(jLabel13)))
                     .addGroup(layout.createSequentialGroup()
                         .addGap(148, 148, 148)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -157,18 +152,18 @@ public class P3Q1 extends javax.swing.JFrame {
                             .addComponent(jLabel7)
                             .addComponent(jLabel10)
                             .addComponent(jLabel11))))
-                .addContainerGap(503, Short.MAX_VALUE))
+                .addContainerGap(517, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGap(52, 52, 52)
-                .addComponent(jLabel12)
+                .addGap(51, 51, 51)
+                .addComponent(jLabel13)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, 0)
-                .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(31, 31, 31)
+                .addComponent(jLabel12, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
                         .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 52, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -177,11 +172,12 @@ public class P3Q1 extends javax.swing.JFrame {
                     .addComponent(jButton1, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                         .addGroup(layout.createSequentialGroup()
+                            .addGap(14, 14, 14)
                             .addComponent(jLabel5)
-                            .addGap(18, 18, 18)
-                            .addComponent(jLabel6)
-                            .addGap(18, 18, 18)
-                            .addComponent(jLabel7))
+                            .addGap(36, 36, 36)
+                            .addComponent(jLabel7)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                            .addComponent(jLabel6))
                         .addComponent(jButton2, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addGap(100, 100, 100)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
@@ -202,7 +198,7 @@ public class P3Q1 extends javax.swing.JFrame {
                                 .addGap(27, 27, 27)
                                 .addComponent(jLabel11)))
                         .addGap(19, 19, 19)))
-                .addContainerGap(379, Short.MAX_VALUE))
+                .addContainerGap(393, Short.MAX_VALUE))
         );
 
         pack();
@@ -210,28 +206,26 @@ public class P3Q1 extends javax.swing.JFrame {
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here:
-        jLabel12.setVisible(true);
+        //CorrectAnswer
+
+        P3Q7 q = new P3Q7();
+        q.setVisible(true);
+        setVisible(false);
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
         // TODO add your handling code here:
-        Data c = new Data(56);
-
-
-        P3Q2 q = new P3Q2();
-        q.setVisible(true);
-        setVisible(false);
-        
+        jLabel13.setVisible(true);
     }//GEN-LAST:event_jButton2ActionPerformed
 
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
         // TODO add your handling code here:
-        jLabel12.setVisible(true);
+        jLabel13.setVisible(true);
     }//GEN-LAST:event_jButton3ActionPerformed
 
     private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
         // TODO add your handling code here:
-        jLabel12.setVisible(true);
+        jLabel13.setVisible(true);
     }//GEN-LAST:event_jButton4ActionPerformed
 
     /**
@@ -278,7 +272,7 @@ public class P3Q1 extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel11;
     private javax.swing.JLabel jLabel12;
-    private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel13;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
@@ -287,5 +281,4 @@ public class P3Q1 extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel8;
     private javax.swing.JLabel jLabel9;
     // End of variables declaration//GEN-END:variables
-
 }
